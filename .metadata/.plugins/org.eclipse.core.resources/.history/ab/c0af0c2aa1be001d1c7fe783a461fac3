@@ -1,0 +1,58 @@
+package Model;
+
+public class Chirigota {
+	private String nombre;
+	private String autor;
+	private String autor_musica;
+	private String autor_letras;
+	private String tipo_disfraz;
+	private int num_cuples;
+	private int puntos_obt;
+	
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getAutor_musica() {
+		return autor_musica;
+	}
+	public void setAutor_musica(String autor_musica) {
+		this.autor_musica = autor_musica;
+	}
+	public String getAutor_letras() {
+		return autor_letras;
+	}
+	public void setAutor_letras(String autor_letras) {
+		this.autor_letras = autor_letras;
+	}
+	public String getTipo_disfraz() {
+		return tipo_disfraz;
+	}
+	public void setTipo_disfraz(String tipo_disfraz) {
+		this.tipo_disfraz = tipo_disfraz;
+	}
+	public int getNum_cuples() {
+		return num_cuples;
+	}
+	public void setNum_cuples(int num_cuples) {
+		this.num_cuples = num_cuples;
+	}
+	public int getPuntos_obt() {
+		return puntos_obt;
+	}
+	public void setPuntos_obt(int puntos_obt) {
+		this.puntos_obt = puntos_obt;
+	}
+	
+	
+
+}

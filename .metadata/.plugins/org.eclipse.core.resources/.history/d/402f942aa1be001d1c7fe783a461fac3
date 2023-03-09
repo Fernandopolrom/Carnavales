@@ -1,0 +1,60 @@
+package Model;
+
+public class Comparsa {
+	
+	private String nombre;
+	private String autor;
+	private String autor_musica;
+	private String autor_letras;
+	private String tipo_disfraz;
+	private String emp_atrezzo;
+	private int puntos_obt;
+	
+	
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getAutor_musica() {
+		return autor_musica;
+	}
+	public void setAutor_musica(String autor_musica) {
+		this.autor_musica = autor_musica;
+	}
+	public String getAutor_letras() {
+		return autor_letras;
+	}
+	public void setAutor_letras(String autor_letras) {
+		this.autor_letras = autor_letras;
+	}
+	public String getTipo_disfraz() {
+		return tipo_disfraz;
+	}
+	public void setTipo_disfraz(String tipo_disfraz) {
+		this.tipo_disfraz = tipo_disfraz;
+	}
+	public String getEmp_atrezzo() {
+		return emp_atrezzo;
+	}
+	public void setEmp_atrezzo(String emp_atrezzo) {
+		this.emp_atrezzo = emp_atrezzo;
+	}
+	public int getPuntos_obt() {
+		return puntos_obt;
+	}
+	public void setPuntos_obt(int puntos_obt) {
+		this.puntos_obt = puntos_obt;
+	}
+	
+	
+		
+}

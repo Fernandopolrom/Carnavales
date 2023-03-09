@@ -1,0 +1,57 @@
+package Model;
+
+public class Cuarteto {
+	private String nombre;
+	private String autor;
+	private String autor_musica;
+	private String autor_letras;
+	private String tipo_disfraz;
+	private int num_miembros;
+	private int puntos_obt;
+	
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getAutor_musica() {
+		return autor_musica;
+	}
+	public void setAutor_musica(String autor_musica) {
+		this.autor_musica = autor_musica;
+	}
+	public String getAutor_letras() {
+		return autor_letras;
+	}
+	public void setAutor_letras(String autor_letras) {
+		this.autor_letras = autor_letras;
+	}
+	public String getTipo_disfraz() {
+		return tipo_disfraz;
+	}
+	public void setTipo_disfraz(String tipo_disfraz) {
+		this.tipo_disfraz = tipo_disfraz;
+	}
+	public int getNum_miembros() {
+		return num_miembros;
+	}
+	public void setNum_miembros(int num_miembros) {
+		this.num_miembros = num_miembros;
+	}
+	public int getPuntos_obt() {
+		return puntos_obt;
+	}
+	public void setPuntos_obt(int puntos_obt) {
+		this.puntos_obt = puntos_obt;
+	}
+	
+	
+}

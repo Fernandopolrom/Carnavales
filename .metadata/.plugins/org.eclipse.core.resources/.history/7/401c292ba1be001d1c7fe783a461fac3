@@ -1,0 +1,67 @@
+package Model;
+
+public class Coro {
+	private String nombre;
+	private String autor;
+	private String autor_musica;
+	private String autor_letra;
+	private String tipo_disfraz;
+	private int num_bandurrias;
+	private int num_guitarras;
+	private int puntos_obt;
+	
+	
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getAutor_musica() {
+		return autor_musica;
+	}
+	public void setAutor_musica(String autor_musica) {
+		this.autor_musica = autor_musica;
+	}
+	public String getAutor_letra() {
+		return autor_letra;
+	}
+	public void setAutor_letra(String autor_letra) {
+		this.autor_letra = autor_letra;
+	}
+	public String getTipo_disfraz() {
+		return tipo_disfraz;
+	}
+	public void setTipo_disfraz(String tipo_disfraz) {
+		this.tipo_disfraz = tipo_disfraz;
+	}
+	public int getNum_bandurrias() {
+		return num_bandurrias;
+	}
+	public void setNum_bandurrias(int num_bandurrias) {
+		this.num_bandurrias = num_bandurrias;
+	}
+	public int getNum_guitarras() {
+		return num_guitarras;
+	}
+	public void setNum_guitarras(int num_guitarras) {
+		this.num_guitarras = num_guitarras;
+	}
+	public int getPuntos_obt() {
+		return puntos_obt;
+	}
+	public void setPuntos_obt(int puntos_obt) {
+		this.puntos_obt = puntos_obt;
+	}
+	
+	
+	
+}
+
