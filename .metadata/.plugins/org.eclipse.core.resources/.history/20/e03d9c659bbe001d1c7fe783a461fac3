@@ -1,0 +1,43 @@
+package Controlador;
+
+
+/**
+ * <h2>Clase coac del paquete controlador </h2>
+ * 
+ * <ul>
+ * <li> Metodo de inscribcion</li>
+ * <li>Metodos de ordenacion por varios campos</li>
+ * </ul>
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+
+import model.AgrupacionOficial;
+
+public class COAC {
+	
+	private boolean inscribir_agrupacion() {
+		return false;
+	}
+	
+	private boolean eliminar_agrupacion() {
+		return false;
+	}
+	
+	private void ordenar_por_puntos() {
+		
+	}
+	private void ordenar_por_nombre() {
+		
+	}
+	
+	private void ordenar_por_autor() {
+		
+	}
+	
+}

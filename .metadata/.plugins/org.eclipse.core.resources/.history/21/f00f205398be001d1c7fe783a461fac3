@@ -1,0 +1,61 @@
+package Model;
+
+public class Agrupacion {
+
+	private String nombre;
+	private String autor;
+	private String autorMusica;
+	private String autorLetras;
+	private String tipo;
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getAutorMusica() {
+		return autorMusica;
+	}
+	public void setAutorMusica(String autorMusica) {
+		this.autorMusica = autorMusica;
+	}
+	public String getAutorLetras() {
+		return autorLetras;
+	}
+	public void setAutorLetras(String autorLetras) {
+		this.autorLetras = autorLetras;
+	}
+	public String getTipo() {
+		return tipo;
+	}
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	
+	public int compareTo(String anotherString) {
+		return autor.compareTo(anotherString);
+	}
+	public int compareTo1(String anotherString) {
+		return autorMusica.compareTo(anotherString);
+	}
+	public int compareTo2(String anotherString) {
+		return autorLetras.compareTo(anotherString);
+	}
+	public int compareTo3(String anotherString) {
+		return tipo.compareTo(anotherString);
+	}
+	public String toString() {
+		return "Agrupacion [nombre=" + nombre + ", autor=" + autor + ", autorMusica=" + autorMusica + ", autorLetras="
+				+ autorLetras + ", tipo=" + tipo + "]";
+	}
+	
+	
+	
+	
+}

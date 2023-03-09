@@ -1,0 +1,42 @@
+package Controlador;
+
+import model.AgrupacionOficial;
+
+public class COAC {
+	
+	private boolean inscribir_agrupacion() {
+		return false;
+	}
+	
+	private boolean eliminar_agrupacion() {
+		return false;
+	}
+	
+	private void ordenar_por_puntos() {
+		
+	}
+	private void ordenar_por_nombre() {
+		
+	}
+	
+	private void ordenar_por_autor() {
+		
+	}
+	
+	public boolean inscribir_agrupacion(AgrupacionOficial agrupacion) {
+		boolean inscrito = false;
+		for (int i = 0; i < agrupa.length; i++) {
+			if (agrupa[i] == null) {
+				agrupa[i] = agrupacion;
+				contAgrupaciones++;
+				inscrito = true;
+				break;
+			} else {
+				inscrito = false;
+			}
+		}
+
+		return inscrito;
+
+	}
+}

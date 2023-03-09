@@ -1,0 +1,25 @@
+package Controlador;
+
+public class COAC {
+	
+	private boolean inscribir_agrupacion() {
+		return false;
+	}
+	
+	private boolean eliminar_agrupacion() {
+		return false;
+	}
+	
+	private void ordenar_por_puntos() {
+		
+	}
+	private void ordenar_por_nombre() {
+		
+	}
+	
+	private void ordenar_por_autor() {
+		
+	}
+	
+	
+}
